@@ -20,27 +20,27 @@ export const siteConfig: SiteConfig = {
 	// Meta property, found in src/components/BaseHead.astro L:42
 	ogLocale: "en_GB",
 	// Used to construct the meta title property found in src/components/BaseHead.astro L:11, and webmanifest name found in astro.config.ts L:42
-	title: "Astro Theme Cactus",
+	title: "Jamie Pan",
 };
 
 // Used to generate links in both the Header & Footer.
 export const menuLinks: { path: string; title: string }[] = [
-	{
-		path: "/",
-		title: "Home",
-	},
-	{
-		path: "/about/",
-		title: "About",
-	},
-	{
-		path: "/posts/",
-		title: "Blog",
-	},
-	{
-		path: "/notes/",
-		title: "Notes",
-	},
+//	{
+//		path: "/",
+//		title: "Home",
+//	},
+	//{
+//		path: "/about/",
+//		title: "About",
+//	},
+//	{
+//		path: "/posts/",
+//		title: "Blog",
+//	},
+//	{
+//		path: "/notes/",
+//		title: "Notes",
+//	},
 ];
 
 // https://expressive-code.com/reference/configuration/
@@ -69,6 +69,6 @@ export const expressiveCodeOptions: AstroExpressiveCodeOptions = {
 		return `[data-theme="${theme.name}"]`;
 	},
 	// One dark, one light theme => https://expressive-code.com/guides/themes/#available-themes
-	themes: ["dracula", "github-light"],
+	themes: ["laserwave", "light-plus"],
 	useThemedScrollbars: false,
 };
